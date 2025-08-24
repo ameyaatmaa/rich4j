@@ -3,6 +3,8 @@
 This repository is a multi-module Maven skeleton for a Rich-inspired Java console UI toolkit.
 
 Project Structure:
+
+'''text
 .
 ├── .gitignore
 ├── README.md
@@ -34,6 +36,7 @@ Project Structure:
         ├── Panel.java
         ├── ProgressBar.java
         └── Spinner.java
+        '''
 
 
 
