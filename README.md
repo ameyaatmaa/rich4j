@@ -3,73 +3,37 @@
 This repository is a multi-module Maven skeleton for a Rich-inspired Java console UI toolkit.
 
 Project Structure:
-
+.
 ├── .gitignore
 ├── README.md
 ├── pom.xml
 ├── rich-ansi
-    ├── pom.xml
-    └── src
-    │   └── main
-    │       └── java
-    │           └── io
-    │               └── rich4j
-    │                   └── richansi
-    │                       └── AnsiRenderer.java
+│   └── pom.xml
+│   └── src/main/java/io/rich4j/richansi/AnsiRenderer.java
 ├── rich-core
-    ├── pom.xml
-    └── src
-    │   └── main
-    │       └── java
-    │           └── io
-    │               └── rich4j
-    │                   └── richcore
-    │                       ├── Measure.java
-    │                       ├── Renderable.java
-    │                       ├── Segment.java
-    │                       └── Style.java
+│   └── pom.xml
+│   └── src/main/java/io/rich4j/richcore/
+│       ├── Measure.java
+│       ├── Renderable.java
+│       ├── Segment.java
+│       └── Style.java
 ├── rich-examples
-    ├── pom.xml
-    └── src
-    │   └── main
-    │       └── java
-    │           └── io
-    │               └── rich4j
-    │                   └── richexamples
-    │                       └── Demo.java
+│   └── pom.xml
+│   └── src/main/java/io/rich4j/richexamples/Demo.java
 ├── rich-live
-    ├── pom.xml
-    └── src
-    │   └── main
-    │       └── java
-    │           └── io
-    │               └── rich4j
-    │                   └── richlive
-    │                       └── Live.java
+│   └── pom.xml
+│   └── src/main/java/io/rich4j/richlive/Live.java
 ├── rich-tests
-    ├── pom.xml
-    └── src
-    │   └── test
-    │       └── java
-    │           └── io
-    │               └── rich4j
-    │                   └── richtests
-    │                       ├── AnsiRendererTest.java
-    │                       └── ProgressBarTest.java
+│   └── pom.xml
+│   └── src/test/java/io/rich4j/richtests/
+│       ├── AnsiRendererTest.java
+│       └── ProgressBarTest.java
 └── rich-widgets
-    ├── pom.xml
-    └── src
-        └── main
-            └── java
-                └── io
-                    └── rich4j
-                        └── richwidgets
-                            ├── Panel.java
-                            ├── ProgressBar.java
-                            └── Spinner.java
-
-
-
+    └── pom.xml
+    └── src/main/java/io/rich4j/richwidgets/
+        ├── Panel.java
+        ├── ProgressBar.java
+        └── Spinner.java
 
 
 
