@@ -4,6 +4,7 @@ This repository is a multi-module Maven skeleton for a Rich-inspired Java consol
 
 ## Project Structure
 
+```
 rich4j
 ├── .gitignore
 ├── README.md
@@ -35,7 +36,7 @@ rich4j
 └── src/test/java/io/rich4j/richtests/
 ├── AnsiRendererTest.java
 └── ProgressBarTest.java
-
+```
 
 ## Modules
 - **rich-core**: core models (`Style`, `Segment`, `Renderable`)  
