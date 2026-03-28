@@ -4,11 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.rich4j</groupId>
+        <groupId>io.github.ameyaatmaa</groupId>
         <artifactId>rich4j</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>rich-core</artifactId>
+    <name>rich-core</name>
     <packaging>jar</packaging>
 </project>

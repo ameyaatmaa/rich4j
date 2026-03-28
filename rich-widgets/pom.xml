@@ -4,24 +4,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.rich4j</groupId>
+        <groupId>io.github.ameyaatmaa</groupId>
         <artifactId>rich4j</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>rich-widgets</artifactId>
+    <name>rich-widgets</name>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>io.rich4j</groupId>
+            <groupId>io.github.ameyaatmaa</groupId>
             <artifactId>rich-core</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
-            <groupId>io.rich4j</groupId>
+            <groupId>io.github.ameyaatmaa</groupId>
             <artifactId>rich-ansi</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 </project>
