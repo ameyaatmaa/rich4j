@@ -3,3 +3,4 @@ target/
 *.iml
 .idea/
 .DS_Store
+docs/rich4j-project-documentation.md
