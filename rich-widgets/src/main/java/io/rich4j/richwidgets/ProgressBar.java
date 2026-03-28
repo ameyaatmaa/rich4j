@@ -19,7 +19,7 @@ public final class ProgressBar implements Renderable {
         String bar = "█".repeat(Math.max(0, fill)) + " ".repeat(Math.max(0, barW-fill));
         long elapsed = Duration.between(start, Instant.now()).getSeconds();
         long eta = current==0?0: (long)((total-current) * (elapsed / (double)Math.max(1,current)));
-        String txt = String.format("[%s] %6.2f%% %d/%d ET A:%ds", bar, p*100.0, current, total, eta);
+        String txt = String.format("[%s] %6.2f%% %d/%d ETA:%ds", bar, p*100.0, current, total, eta);
         return java.util.List.of(java.util.List.of(Segment.plain(txt)));
     }
 }

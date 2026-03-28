@@ -23,7 +23,7 @@ public class Demo {
         VBox live1 = new VBox(bar, spinner);
 
         try (Live live = new Live(System.out)) {
-            live.setRefreshRate(30);
+            live.setRefreshRate(30); // metadata hint only; actual pacing is via Thread.sleep below
             for (int i = 0; i < 100; i++) {
                 bar.step(1);
                 spinner.tick();
@@ -48,7 +48,7 @@ public class Demo {
 
         try (Live live = new Live(System.out)) {
             live.refresh(panel, Measure.simple(), console.width());
-            Thread.sleep(2000);
+            Thread.sleep(2000); // hold so user can read the table
         }
         console.println("");
 
